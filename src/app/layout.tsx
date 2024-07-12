@@ -21,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${eczar.className} ${freudian.variable}`}>{children}</body>
+      <body
+        className={`${eczar.className} ${freudian.variable} bg-neutralBackgroundColor before:bg-grain before:h-[100vh] before:w-[100vw] before:absolute before:opacity-20 h-[100vh]`}>
+        <div className=" z-10">{children}</div>
+      </body>
     </html>
   );
 }

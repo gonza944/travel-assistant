@@ -1,10 +1,10 @@
 // Primary Tokens
 export const designSystemColors = {
-    gray1: '#262626',
-    gray2: '#F2F1E4',
+    gray1: '#1d1d1d',
+    gray2: '#F8F7E5',
     darkRed: '#A6550F',
-    yellow: '#F2A444',
-    green: '#828C77',
+    yellow: '#F9AF42',
+    green: '#75846a',
    }
    
    
